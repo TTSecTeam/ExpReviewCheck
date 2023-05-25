@@ -34,7 +34,7 @@ front_header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0'
 }
 
-host = 'https://inner.ldy.360zqaq.net'
+host = ''
 
 vul_headers = {
     'Authorization': '{0}'.format(env_dist.get('Authorization')),

@@ -23,7 +23,7 @@ class VulInfo:
         返回:
             dict: 包含漏洞信息的字典。
         """
-        url = vul_host + f"/api/admin/exp/admin_get_audit_exp_list?page={page}&limit={limit}"
+        url = vul_host + f"/api/admin/exp/user_pend_exp_list?page={page}&limit={limit}"
         headers = vul_headers
 
         try:
