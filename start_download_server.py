@@ -13,7 +13,7 @@ def main():
     vul_headers = all_cookie.vul_headers
     vul_host = all_cookie.vul_host
 
-    # 拉取对外poc平台待审核的EXP
+    # 拉取对外poc平台待审核的EXP，可以设置分页
     downloader = PocDownloader()
     downloader.download_pocs(vul_host=vul_host, vul_headers=vul_headers, path="./storage/vul_data/",
                                                page=1, limit=20)
